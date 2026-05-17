@@ -1,0 +1,39 @@
+# Logs
+logs/*.log
+logs/alerts.log
+logs/audit.log
+logs/perf.log
+
+# Runtime files
+run/*.pid
+run/*.state
+run/heartbeat
+
+# Data files (sensitive)
+data/*.db
+data/*.enc
+data/.sentinel_key
+*.enc
+
+# Config (may contain secrets)
+sentinel.conf
+config/sentinel.conf
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+*.tmp
