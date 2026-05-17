@@ -1,7 +1,7 @@
 # sentinel
 sentilel-security
 
-
+======================================================
                 _   _            _         
  ___  ___ _ __ | |_(_)_ __   ___| |        
 / __|/ _ \ '_ \| __| | '_ \ / _ \ |  _____ 
@@ -12,7 +12,7 @@ sentilel-security
 \__ \  __/ (__| |_| | |  | | |_| |_| |     
 |___/\___|\___|\__,_|_|  |_|\__|\__, |     
                                 |___/      
-
+======================================================
 ✅ Auto-detection - Automatically detects Termux/Linux
 ✅ No Root (Termux) - Runs without root access in Termux
 ✅ Root Support (Linux) - Uses full root access on Linux
