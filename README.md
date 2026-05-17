@@ -2,16 +2,7 @@
 sentilel-security
 
 ======================================================
-                _   _            _         
- ___  ___ _ __ | |_(_)_ __   ___| |        
-/ __|/ _ \ '_ \| __| | '_ \ / _ \ |  _____ 
-\__ \  __/ | | | |_| | | | |  __/ | |_____|
-|___/\___|_| |_|\__|_|_| |_|\___|_|        
- ___  ___  ___ _   _ _ __(_) |_ _   _      
-/ __|/ _ \/ __| | | | '__| | __| | | |     
-\__ \  __/ (__| |_| | |  | | |_| |_| |     
-|___/\___|\___|\__,_|_|  |_|\__|\__, |     
-                                |___/      
+SENTINEL - SECURITY
 ======================================================
 ✅ Auto-detection - Automatically detects Termux/Linux
 ✅ No Root (Termux) - Runs without root access in Termux
@@ -33,8 +24,11 @@ INSTALATION :
 # Install
 cd ~
 git clone <repo-url> sentinel
+
 cd sentinel
+
 chmod +x install.sh sentinel daemon.sh
+
 chmod +x modules/*.sh core/*.sh
 
 # Start monitoring
@@ -45,7 +39,9 @@ chmod +x modules/*.sh core/*.sh
 
 # Run scan
 ./sentinel scan all
+
 ./sentinel scan malware
+
 ./sentinel scan remote
 
 # Stop
