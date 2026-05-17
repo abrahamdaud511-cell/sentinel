@@ -1,9 +1,9 @@
 # sentinel
 sentilel-security
 
-======================================================
-SENTINEL - SECURITY
-======================================================
+
+# SENTINEL - SECURITY
+
 ✅ Auto-detection - Automatically detects Termux/Linux
 ✅ No Root (Termux) - Runs without root access in Termux
 ✅ Root Support (Linux) - Uses full root access on Linux
@@ -17,9 +17,8 @@ SENTINEL - SECURITY
 
 Sentinel - This security app is suitable for Android (via Termux), runs in the background, and is supported on Linux distributions such as Kali Linux, Debian, etc.
 
-==========================
+
 INSTALATION :
-==========================
 
 # Install
 cd ~
@@ -49,6 +48,3 @@ chmod +x modules/*.sh core/*.sh
 
 # View logs
 ./sentinel logs 100
-
-===========================
-===========================
