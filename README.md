@@ -38,7 +38,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/sentinel.git
+https://github.com/abrahamdaud511-cell/sentinel.git
 cd sentinel
 
 # Run installer
