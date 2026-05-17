@@ -1,50 +1,50 @@
-# sentinel
-sentilel-security
+# 🛡️ SENTINEL Security Suite
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Bash](https://img.shields.io/badge/Bash-4.0+-blue.svg)](https://www.gnu.org/software/bash/)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Android%20(Termux)-green.svg)]()
+[![Version](https://img.shields.io/badge/Version-2.0.0-red.svg)]()
 
-# SENTINEL - SECURITY
+**Advanced Security Monitoring & Protection System for Linux and Android**
 
-✅ Auto-detection - Automatically detects Termux/Linux
-✅ No Root (Termux) - Runs without root access in Termux
-✅ Root Support (Linux) - Uses full root access on Linux
-✅ Background Daemon - 24/7 monitoring
-✅ Multi-Module - 10+ security modules
-✅ Real-time Alerts - Instant notifications
-✅ Low Resource - Lightweight and efficient
-✅ Encrypted Config - Encrypted configuration
-✅ Game Security - Anti-cheat for games
-✅ Keyboard Protection - Keylogger detection
+## ✨ Features
 
-Sentinel - This security app is suitable for Android (via Termux), runs in the background, and is supported on Linux distributions such as Kali Linux, Debian, etc.
+- 🔒 **Anti-Tampering** - Protect against code modification
+-  **Root/Jailbreak Detection** - Detect rooted devices
+- 🦠 **Malware Scanner** - Pattern-based malware detection
+- 🌐 **Remote Control Detection** - Detect ADB, VNC, TeamViewer, etc.
+- 📸 **Screen Guard** - Prevent screenshots & recording
+- 🌍 **Network Monitor** - Detect suspicious connections
+- 🎮 **Game Security** - Anti-cheat for mobile games
+- ⌨️ **Keyboard Protection** - Detect keyloggers
+- 🔐 **Code Obfuscation** - Encrypt & obfuscate sensitive files
+- 📊 **Real-time Alerts** - Notifications via Termux, Desktop, Webhook
 
+##  Requirements
 
-INSTALATION :
+### For Termux (Android)
+- Android 5.0+
+- Termux app
+- No root required
 
-# Install
-cd ~
-git clone <repo-url> sentinel
+### For Linux
+- Bash 4.0+
+- Root access (recommended)
+- Standard Unix tools
 
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/sentinel.git
 cd sentinel
 
-chmod +x install.sh sentinel daemon.sh
+# Run installer
+chmod +x scripts/install.sh
+./scripts/install.sh
 
-chmod +x modules/*.sh core/*.sh
-
-# Start monitoring
-./sentinel start
-
-# Check status
-./sentinel status
-
-# Run scan
-./sentinel scan all
-
-./sentinel scan malware
-
-./sentinel scan remote
-
-# Stop
-./sentinel stop
-
-# View logs
-./sentinel logs 100
+# Or manual setup
+chmod +x sentinel daemon.sh
+chmod +x core/*.sh modules/*.sh
